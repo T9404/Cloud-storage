@@ -6,33 +6,25 @@
 
 The server, by default, listens on port 8080. To change the port, modify the `PORT` constant in the `Server.java` file. Ensure to update the port in the client constant in `Client.java` accordingly.
 
-1. Open IntelliJ IDEA.
+1. Open the project.
 
-2. Open your project.
-
-3. Project Navigation:
+2. Project Navigation:
    - Navigate to `src/main/java`.
    - Locate the package `org.example`.
    - Find the class `ServerApp.java`.
 
-4. Right-click on `ServerApp.java`.
-
-5. In the context menu, select "Run 'ServerApp.main()'". This will start the server application.
+3. Run 'ServerApp.main()'. This will start the server application.
 
 ### Running the Client
 
-1. Open IntelliJ IDEA.
+1. Open the project.
 
-2. Open your project.
-
-3. Project Navigation:
+2. Project Navigation:
    - Navigate to `src/main/java`.
    - Locate the package `org.example`.
    - Find the class `ClientApp.java`.
 
-4. Right-click on `ClientApp.java`.
-
-5. In the context menu, select "Run 'ClientApp.main()'". This will start the client application.
+5. Run 'ClientApp.main()'. This will start the client application.
 
 ## How to Use
 
