@@ -1,5 +1,48 @@
 # Cloud storage
 
+## Functionalities 
+
+### User Registration and Login:
+
+* Users can register with the application by providing their credentials (e.g., username and password).
+* Registered users can log in with their credentials to access their cloud storage.
+
+### Session Management:
+
+* Users have sessions associated with their logins to maintain their authentication state.
+
+### File Upload:
+
+* Users can upload files from their local storage to the server.
+* The application should handle large files, possibly by splitting them into smaller chunks for efficient transfer.
+
+### File Download:
+
+* Users can browse and select files stored on the server for download.
+* The application should provide options to download files to the local machine.
+
+### File Movement and Copying:
+
+* Users can move and copy files within their cloud storage.
+* They can create folders or directories to organize their files.
+
+### Rate Limiting:
+
+* Implement rate limiting to restrict the number of requests a user can make within a given time frame to prevent abuse or overloading the server.
+
+### Logout:
+
+* Users can log out from their sessions to securely end their access to the system.
+
+### Error Handling and Logging:
+
+* Implement error handling to provide meaningful error messages to users when issues arise.
+* Maintain logs for system and security auditing purposes.
+
+### User-Friendly Interface:
+
+* Create a user-friendly interface for both the server and client applications with appropriate messages and hints for users.
+
 ## How to Run
 
 ### Running the Server
