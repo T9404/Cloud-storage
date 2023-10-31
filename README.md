@@ -7,6 +7,10 @@
 * Users can register with the application by providing their credentials (e.g., username and password).
 * Registered users can log in with their credentials to access their cloud storage.
 
+### Logout:
+
+* Users can log out from their sessions to securely end their access to the system.
+
 ### Session Management:
 
 * Users have sessions associated with their logins to maintain their authentication state.
@@ -29,10 +33,6 @@
 ### Rate Limiting:
 
 * Implement rate limiting to restrict the number of requests a user can make within a given time frame to prevent abuse or overloading the server.
-
-### Logout:
-
-* Users can log out from their sessions to securely end their access to the system.
 
 ### Error Handling and Logging:
 
